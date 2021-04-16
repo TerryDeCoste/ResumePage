@@ -1,0 +1,52 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+ul {
+    list-style: none;
+    padding: 0 0.25rem;
+}
+li {
+    margin: 0 0 0.75rem 0;
+}
+p {
+    margin-block-start: 0.25rem;
+    margin-block-end: 0.25rem;
+}
+#nameArea{
+    flex-grow: 1;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+    background-color: white;
+    margin: 0;
+    height: 100%;
+}
+#leftColumn{
+    flex-grow: 1;
+    max-width: 25%;
+    background-color: lightgreen;
+    margin: 0;
+    height: 100%;
+    padding: 0 0.5rem;
+}
+#rightColumn{
+    flex-grow: 3;
+    padding: 0 0.5rem;
+}
