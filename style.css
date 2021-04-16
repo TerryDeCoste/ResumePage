@@ -6,6 +6,8 @@ body {
     height: 100vh;
     display: flex;
     flex-flow: column;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
 }
 header {
     display: flex;
@@ -15,9 +17,23 @@ header {
     margin: 0;
     padding: 0.5rem 1rem;
 }
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 0.25rem;
+}
+h3 {
+    margin: 0.5rem 0 0 0;
+}
+h6 {
+    margin: 0.25rem;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
 ul {
     list-style: none;
     padding: 0 0.25rem;
+    margin: 0;
 }
 li {
     margin: 0 0 0.75rem 0;
@@ -49,4 +65,7 @@ main {
 #rightColumn{
     flex-grow: 3;
     padding: 0 0.5rem;
+}
+#summary p{
+    padding: 0 0.25rem;
 }
