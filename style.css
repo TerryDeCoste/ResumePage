@@ -54,6 +54,10 @@ p {
     flex-grow: 1;
     text-align: center;
 }
+#contactMeLink{
+    color: white;
+    font-size: larger;
+}
 
 main {
     display: flex;
