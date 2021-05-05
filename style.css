@@ -156,3 +156,7 @@ main {
     display: inline-block; 
     margin: 0 1rem 0 0;
 }
+.siteLink b {
+    font-family: 'Courier New', sans;
+    font-weight: bold;
+}
